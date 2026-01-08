@@ -10,10 +10,8 @@ Texture2D:
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 27859e73a6a2282a9c32038d6165bfdb
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
   m_IsAlphaChannelOptional: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Width: 2048
   m_Height: 1024
   m_CompleteImageSize: 1398120
@@ -139,8 +137,6 @@ MonoBehaviour:
   - dependency: {fileID: 1670008050057240247, guid: fa83a52ff02834ab88fd925882c47daa,
       type: 3}
     instantiationMode: 0
-  - dependency: {fileID: 2800000, guid: 188dfe7e559f13248ba2c41eb5a59328, type: 3}
-    instantiationMode: 1
   - dependency: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     instantiationMode: 0
   - dependency: {fileID: 7184146254418188990, guid: c74dfa26ef65e45a3887023a155b1067,
@@ -176,6 +172,8 @@ MonoBehaviour:
   - dependency: {fileID: 919132149155446097, guid: af739deeba3604874b133b60be2a0615,
       type: 3}
     instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 32b23d5d74f3aee4f9364e34e2f59379, type: 3}
+    instantiationMode: 1
   - dependency: {fileID: 2100000, guid: 320ad06e4f93f4cb9a244f908388ac5b, type: 2}
     instantiationMode: 0
   - dependency: {fileID: 8300000, guid: 98b6405bf4ad44361bbcc37d9b861b84, type: 3}
@@ -239,8 +237,6 @@ MonoBehaviour:
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 8905f861e124b49b181d263038f1898a, type: 3}
     instantiationMode: 0
-  - dependency: {fileID: 2800000, guid: f20112bdeec2e8d4d9f80e8390e37263, type: 3}
-    instantiationMode: 1
   - dependency: {fileID: 2800000, guid: 4590c200dbba945b68280e57d1f7a75e, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 4754229080493626382, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
@@ -274,6 +270,8 @@ MonoBehaviour:
       type: 3}
     instantiationMode: 0
   - dependency: {fileID: 8300000, guid: a17043922c7454bee81473cfa31ee199, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 8400000, guid: fe0c00aebda5042c39194aaee7965429, type: 2}
     instantiationMode: 1
   - dependency: {fileID: 11400000, guid: 03446eeee208a440f85234e7239e4f44, type: 2}
     instantiationMode: 0

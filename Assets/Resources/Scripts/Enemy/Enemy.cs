@@ -58,7 +58,7 @@ public class Enemy : SpaceshipBase
         enemy = transform;
         phase = Phases.Base;
 
-        scoreManager = GameObject.FindObjectOfType<ScoreManager>();
+        scoreManager = GameObject.FindFirstObjectByType<ScoreManager>();
     }
 
     private void Update()
@@ -116,7 +116,7 @@ public class Enemy : SpaceshipBase
             parentWave.enemies.Remove(gameObject);
 
         scoreManager.UpdateScore(points);
-        FindObjectOfType<AudioManager>().PlaySound("DestroyShip");
+        FindFirstObjectByType<AudioManager>().PlaySound("DestroyShip");
     }
 }
 

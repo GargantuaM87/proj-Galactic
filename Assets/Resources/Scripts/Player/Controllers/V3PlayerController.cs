@@ -14,6 +14,7 @@ public class V3PlayerController : MonoBehaviour
     [SerializeField] private float dashCoolDown;
     private float dashCoolDownTimer;
     PlayerControls controls;
+    public bool iFrames = false;
 
     private void Awake()
     {
@@ -49,6 +50,7 @@ public class V3PlayerController : MonoBehaviour
         {
             dashCoolDownTimer = dashCoolDown;
             dashTime = dashDuration;
+            iFrames = true;
         }
     }
 
@@ -59,8 +61,12 @@ public class V3PlayerController : MonoBehaviour
             Vector3 dashForce = -speed * dashSpeed * horizontal * transform.right;
             transform.position += dashForce * Time.deltaTime;
         }
-        Vector3 force = -speed * horizontal * transform.right;
-        transform.position += force * Time.deltaTime;
+        else
+        {
+            Vector3 force = -speed * horizontal * transform.right;
+            transform.position += force * Time.deltaTime;
+            iFrames = false;
+        }
     }
 
 

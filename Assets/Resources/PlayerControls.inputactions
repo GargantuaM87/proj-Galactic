@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "name": "PlayerControls",
     "maps": [
         {
@@ -9,7 +10,7 @@
                     "name": "Boost",
                     "type": "Button",
                     "id": "ef4ff8de-d02a-4570-ae47-36fd7cb0d8da",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -27,7 +28,7 @@
                     "name": "Shoot",
                     "type": "Button",
                     "id": "76691a99-cb1c-4e2e-926d-8ea0e2f49014",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false

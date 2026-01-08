@@ -1,4 +1,4 @@
-repository "GameJam2024@WheatonGDC@cloud"
+repository "Cloud Repositories/GameJam2024@2474381710149@cloud"
   path "/"
     br "/main"
     co "/main"

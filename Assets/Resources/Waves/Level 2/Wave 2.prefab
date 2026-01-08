@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7387446445244992328
+--- !u!1 &626168860748633153
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8013906456729577130}
-  - component: {fileID: 3219200031767190622}
+  - component: {fileID: 1638496720965873908}
   m_Layer: 0
   m_Name: Wave 2
   m_TagString: Untagged
@@ -17,66 +16,43 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8013906456729577130
+--- !u!4 &1638496720965873908
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7387446445244992328}
+  m_GameObject: {fileID: 626168860748633153}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -85, y: 20, z: 175.6}
+  m_LocalPosition: {x: 4.4383345, y: 0, z: 228.79605}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 150820458337771371}
-  - {fileID: 7466171834252089770}
-  - {fileID: 8776851571018127021}
-  - {fileID: 5999400495542776323}
-  - {fileID: 4354830477652038748}
+  - {fileID: 4126996877730208685}
+  - {fileID: 3967460535210387953}
+  - {fileID: 7538312006079526373}
+  - {fileID: 5272239906493455371}
+  - {fileID: 5928068932876472850}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3219200031767190622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7387446445244992328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0c01679c3fba4830b4c998ce05ed50b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemies:
-  - {fileID: 674417089307854289}
-  - {fileID: 7842731870171104016}
-  - {fileID: 8252411649595345943}
-  - {fileID: 6343872418424121529}
-  - {fileID: 3973485023328128742}
---- !u!1001 &5234986980173042143
+--- !u!1001 &259934197789594303
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 8013906456729577130}
+    m_TransformParent: {fileID: 1638496720965873908}
     m_Modifications:
     - target: {fileID: 4754229080493626382, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_Name
-      value: The Lovers, Philia
-      objectReference: {fileID: 0}
-    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: -1
+      value: The Lovers, Philia (3)
       objectReference: {fileID: 0}
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 53.4
+      value: 80.7
       objectReference: {fileID: 0}
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
@@ -86,7 +62,7 @@ PrefabInstance:
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.899994
+      value: -4.4
       objectReference: {fileID: 0}
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
@@ -96,17 +72,17 @@ PrefabInstance:
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
@@ -123,160 +99,103 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6811212646361576951, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
-        type: 3}
-      propertyPath: parentWave
-      value: 
-      objectReference: {fileID: 3219200031767190622}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ada033bcf5f34b3f900602a23f0c4c3, type: 3}
---- !u!4 &150820458337771371 stripped
+--- !u!4 &5272239906493455371 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
     type: 3}
-  m_PrefabInstance: {fileID: 5234986980173042143}
+  m_PrefabInstance: {fileID: 259934197789594303}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &674417089307854289 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4754229080493626382, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
-    type: 3}
-  m_PrefabInstance: {fileID: 5234986980173042143}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &5887646839457609857
+--- !u!1001 &2462567740393225041
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 8013906456729577130}
+    m_TransformParent: {fileID: 1638496720965873908}
     m_Modifications:
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 4754229080493626382, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
-      propertyPath: m_RootOrder
-      value: -1
+      propertyPath: m_Name
+      value: The Lovers, Philia (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.4999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.4999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 96
+      value: -91.6
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -42
+      value: -4.4
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 701692658380378168, guid: a80a84b86ccac4c58abd114a632f3643,
-        type: 3}
-      propertyPath: m_Name
-      value: Philautia_TheLovers Variant (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4352517183605414901, guid: a80a84b86ccac4c58abd114a632f3643,
-        type: 3}
-      propertyPath: parentWave
-      value: 
-      objectReference: {fileID: 3219200031767190622}
-    - target: {fileID: 5141346333401640688, guid: a80a84b86ccac4c58abd114a632f3643,
-        type: 3}
-      propertyPath: m_Radius
-      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a80a84b86ccac4c58abd114a632f3643, type: 3}
---- !u!4 &5999400495542776323 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 5ada033bcf5f34b3f900602a23f0c4c3, type: 3}
+--- !u!4 &7538312006079526373 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+  m_CorrespondingSourceObject: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
     type: 3}
-  m_PrefabInstance: {fileID: 5887646839457609857}
+  m_PrefabInstance: {fileID: 2462567740393225041}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &6343872418424121529 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 701692658380378168, guid: a80a84b86ccac4c58abd114a632f3643,
-    type: 3}
-  m_PrefabInstance: {fileID: 5887646839457609857}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &7307674047547708200
+--- !u!1001 &5815134637459167376
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 8013906456729577130}
+    m_TransformParent: {fileID: 1638496720965873908}
     m_Modifications:
     - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
         type: 3}
-      propertyPath: m_RootOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.4999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.4999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
-        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -6.3
       objectReference: {fileID: 0}
     - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
         type: 3}
@@ -286,7 +205,7 @@ PrefabInstance:
     - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -13.8
       objectReference: {fileID: 0}
     - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
         type: 3}
@@ -328,50 +247,39 @@ PrefabInstance:
       propertyPath: m_Name
       value: Philautia_TheLovers Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 4352517183605414901, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5141346333401640688, guid: a80a84b86ccac4c58abd114a632f3643,
         type: 3}
-      propertyPath: parentWave
-      value: 
-      objectReference: {fileID: 3219200031767190622}
+      propertyPath: m_Radius
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a80a84b86ccac4c58abd114a632f3643, type: 3}
---- !u!4 &7466171834252089770 stripped
+--- !u!4 &5928068932876472850 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
     type: 3}
-  m_PrefabInstance: {fileID: 7307674047547708200}
+  m_PrefabInstance: {fileID: 5815134637459167376}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &7842731870171104016 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 701692658380378168, guid: a80a84b86ccac4c58abd114a632f3643,
-    type: 3}
-  m_PrefabInstance: {fileID: 7307674047547708200}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &8565509746032466664
+--- !u!1001 &8356344786018800921
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 8013906456729577130}
+    m_TransformParent: {fileID: 1638496720965873908}
     m_Modifications:
     - target: {fileID: 4754229080493626382, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_Name
-      value: The Lovers, Philia (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: -1
+      value: The Lovers, Philia
       objectReference: {fileID: 0}
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 148
+      value: 40.8
       objectReference: {fileID: 0}
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
@@ -381,7 +289,7 @@ PrefabInstance:
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.899994
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
@@ -391,17 +299,17 @@ PrefabInstance:
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
@@ -418,125 +326,88 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6811212646361576951, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
-        type: 3}
-      propertyPath: parentWave
-      value: 
-      objectReference: {fileID: 3219200031767190622}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ada033bcf5f34b3f900602a23f0c4c3, type: 3}
---- !u!1 &3973485023328128742 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4754229080493626382, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
-    type: 3}
-  m_PrefabInstance: {fileID: 8565509746032466664}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4354830477652038748 stripped
+--- !u!4 &4126996877730208685 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
     type: 3}
-  m_PrefabInstance: {fileID: 8565509746032466664}
+  m_PrefabInstance: {fileID: 8356344786018800921}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &8879582708371430447
+--- !u!1001 &9060955281987430213
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 8013906456729577130}
+    m_TransformParent: {fileID: 1638496720965873908}
     m_Modifications:
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 4754229080493626382, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
-      propertyPath: m_RootOrder
-      value: -1
+      propertyPath: m_Name
+      value: The Lovers, Philia (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2.4999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.4999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 191.9
+      value: -52.4
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -30
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+    - target: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 701692658380378168, guid: a80a84b86ccac4c58abd114a632f3643,
-        type: 3}
-      propertyPath: m_Name
-      value: Philautia_TheLovers Variant (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4352517183605414901, guid: a80a84b86ccac4c58abd114a632f3643,
-        type: 3}
-      propertyPath: parentWave
-      value: 
-      objectReference: {fileID: 3219200031767190622}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a80a84b86ccac4c58abd114a632f3643, type: 3}
---- !u!1 &8252411649595345943 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 701692658380378168, guid: a80a84b86ccac4c58abd114a632f3643,
-    type: 3}
-  m_PrefabInstance: {fileID: 8879582708371430447}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &8776851571018127021 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 5ada033bcf5f34b3f900602a23f0c4c3, type: 3}
+--- !u!4 &3967460535210387953 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 213702651243874946, guid: a80a84b86ccac4c58abd114a632f3643,
+  m_CorrespondingSourceObject: {fileID: 5382288107814506164, guid: 5ada033bcf5f34b3f900602a23f0c4c3,
     type: 3}
-  m_PrefabInstance: {fileID: 8879582708371430447}
+  m_PrefabInstance: {fileID: 9060955281987430213}
   m_PrefabAsset: {fileID: 0}

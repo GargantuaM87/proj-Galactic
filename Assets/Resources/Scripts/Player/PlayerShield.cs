@@ -4,16 +4,20 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerShield : MonoBehaviour
+
 {
+    public List<ParticleCollisionEvent> collisionEvents;
+    public GameObject explosionPrefab;
     [SerializeField] List<GameObject> shieldBar = new List<GameObject>();
+    [SerializeField] PlayerController playerController;
     private int count;
     private int maxCount;
 
     private PlayerHealth playerHealth;
 
     private ParticleSystem part;
-    public List<ParticleCollisionEvent> collisionEvents;
-    public GameObject explosionPrefab;
+
+
 
     #region MONOBEHAVIOUR API
     void Start()
@@ -26,13 +30,12 @@ public class PlayerShield : MonoBehaviour
         part = GetComponent<ParticleSystem>();
         collisionEvents = new List<ParticleCollisionEvent>();
         playerHealth = FindAnyObjectByType<PlayerHealth>();
-        
     }
 
 
     private void OnParticleCollision(GameObject other)
     {
-        if (other.CompareTag("EnemyLasers"))
+        if (other.CompareTag("EnemyLasers") && !playerController.iFrames)
         {
             int numCollisionEvents = part.GetCollisionEvents(other, collisionEvents);
 
@@ -66,7 +69,7 @@ public class PlayerShield : MonoBehaviour
 
     public void SetMaxShield()
     {
-        for ( ; count < maxCount; count++)
+        for (; count < maxCount; count++)
         {
             shieldBar[count].SetActive(true);
         }
